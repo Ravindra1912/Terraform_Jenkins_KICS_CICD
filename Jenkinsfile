@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout Terraform Project') {
             steps {
-                git branch: 'main', url: 'https://github.com/NeeharikaRN/Terraform_Jenkins_KICS_CICD.git'
+                git branch: 'main', url: 'https://github.com/Ravindra1912/Terraform_Jenkins_KICS_CICD.git'
             }
         }
 
